@@ -1,0 +1,22 @@
+##COMANDOS USADOS
+git revert --no-commit f03b1b1                              
+git revert --no-commit 2eb655f
+
+
+##Salida del git log --oneline
+77b5769 Revierte experimentos 1 y 2
+f03b1b1 Activa experimento 2
+2eb655f Activa experimento 1
+47d9dc4 Revert "Sube nivel de log a debug (también bug)"
+7abd719 Sube nivel de log a debug (también bug)
+10ac95d Revert "Cambia a modo debug en producción (bug)"
+362e429 Ajusta limite de conexiones
+56a116b Cambia a modo debug en producción (bug)
+817d2a4 Activa cache por defecto
+a25e26d Config inicial para producción
+4711f2b add deadline
+0790529 Initial commit
+
+
+##Explicación
+Agrupar varios reverts en un solo commit ayuda a mantener el historial más limpio y organizado, especialmente cuando varios cambios están relacionados.

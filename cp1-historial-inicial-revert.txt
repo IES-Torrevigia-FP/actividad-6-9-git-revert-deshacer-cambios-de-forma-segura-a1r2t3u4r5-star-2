@@ -1,0 +1,13 @@
+362e429 Ajusta limite de conexiones
+56a116b Cambia a modo debug en producción (bug)
+817d2a4 Activa cache por defecto
+a25e26d Config inicial para producción
+4711f2b add deadline
+0790529 Initial commit
+
+
+modo=produccion
+nivel_log=info
+cache=activada
+modo=debug
+limite_conexiones=100

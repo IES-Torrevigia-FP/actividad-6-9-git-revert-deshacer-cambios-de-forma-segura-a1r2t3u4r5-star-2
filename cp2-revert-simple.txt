@@ -1,0 +1,18 @@
+10ac95d Revert "Cambia a modo debug en producción (bug)"
+362e429 Ajusta limite de conexiones
+56a116b Cambia a modo debug en producción (bug)
+817d2a4 Activa cache por defecto
+a25e26d Config inicial para producción
+4711f2b add deadline
+0790529 Initial commit
+
+
+modo=produccion
+nivel_log=info
+cache=activada
+modo=debug #hace falta borrar esto? Porque hemos borrado el commit
+limite_conexiones=100
+
+
+##EXPLICACIÓN
+git revert es seguro porque no borra commits, sino que crea un nuevo commit que invierte los cambios de uno anterior.

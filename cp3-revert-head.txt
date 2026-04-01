@@ -1,0 +1,16 @@
+47d9dc4 Revert "Sube nivel de log a debug (también bug)"
+7abd719 Sube nivel de log a debug (también bug)
+10ac95d Revert "Cambia a modo debug en producción (bug)"
+362e429 Ajusta limite de conexiones
+56a116b Cambia a modo debug en producción (bug)
+817d2a4 Activa cache por defecto
+a25e26d Config inicial para producción
+4711f2b add deadline
+0790529 Initial commit
+
+
+##EXPLICACIÓN
+
+En un entorno colaborativo, la diferencia entre
+git revert HEAD y git reset --hard HEAD~1 depende de cómo manejan el historial de commits y el riesgo que representan para el trabajo de otros desarrolladores.
+Revert es seguro para compartir, reset --hard es solo para cambios locales.
