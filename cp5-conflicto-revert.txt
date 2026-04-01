@@ -1,0 +1,19 @@
+En la rama main
+Tu rama está adelantada a 'origin/main' por 11 commits.
+  (usa "git push" para publicar tus commits locales)
+
+Estás revirtiendo el commit 664cda1.
+  (corrige los conflictos y ejecuta "git revert --continue")
+  (usa "git revert --skip" para omitir este parche)
+  (usa "git revert --abort" para cancelar la operación de revertir)
+
+Rutas no fusionadas:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+  (usa "git add <archivo>..." para marcar una resolución)
+	modificados por ambos:  config.txt
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+##Conflicto resuelto
+
+Eliminé los marcadores, hize un git add, git revert --continue. Después de resolver el conflicto, Git indicó que no había cambios que aplicar, así que usé git revert --skip para omitir ese revert porque ya no era necesario.
