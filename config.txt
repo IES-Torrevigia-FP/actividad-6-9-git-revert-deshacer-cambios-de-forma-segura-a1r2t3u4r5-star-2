@@ -1,4 +1,4 @@
-modo=inactivo
+modo=inactivo2
 nivel_log=info
 cache=activada
 modo=debug
